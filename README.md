@@ -1,3 +1,13 @@
+see https://github.com/GoogleChrome/lighthouse/pull/7478.
+
+Closer look at accumulating network request's encodedDataLength from "Network.responseReceived / Network.dataReceived" vs what is reported in "Network.loadingFinished".
+
+Summary,
+
+1. Network Service enabled makes the accumulated total not equal the finished total more often.
+2. requests for data-urls don't have dataReceived events
+3. requests that have responses from cache don't have dataReceived events.
+
 Output:
 
 ```
