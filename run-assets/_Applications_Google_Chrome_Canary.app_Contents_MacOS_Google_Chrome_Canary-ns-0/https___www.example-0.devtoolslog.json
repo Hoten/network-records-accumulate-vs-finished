@@ -1,0 +1,508 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "278F66D662C8683BB2576D26665096D9",
+      "name": "commit",
+      "timestamp": 18160.638535
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "278F66D662C8683BB2576D26665096D9",
+      "name": "DOMContentLoaded",
+      "timestamp": 18160.638769
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "278F66D662C8683BB2576D26665096D9",
+      "name": "load",
+      "timestamp": 18160.6392
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "278F66D662C8683BB2576D26665096D9",
+      "name": "networkAlmostIdle",
+      "timestamp": 18160.640015
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "278F66D662C8683BB2576D26665096D9",
+      "name": "networkIdle",
+      "timestamp": 18160.640015
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "documentURL": "https://www.example.com/",
+      "request": {
+        "url": "https://www.example.com/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18161.293758,
+      "wallTime": 1552587158.012568,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "timestamp": 18161.424476,
+      "type": "Document",
+      "response": {
+        "url": "https://www.example.com/",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "content-encoding": "gzip",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=604800",
+          "content-type": "text/html; charset=UTF-8",
+          "date": "Thu, 14 Mar 2019 18:12:38 GMT",
+          "etag": "\"1541025663+gzip\"",
+          "expires": "Thu, 21 Mar 2019 18:12:38 GMT",
+          "last-modified": "Fri, 09 Aug 2013 23:54:35 GMT",
+          "server": "ECS (sjc/4E3E)",
+          "vary": "Accept-Encoding",
+          "x-cache": "HIT",
+          "content-length": "606"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "www.example.com",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9"
+        },
+        "connectionReused": false,
+        "connectionId": 99,
+        "remoteIPAddress": "93.184.216.34",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 189,
+        "timing": {
+          "requestTime": 18161.294163,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 17.723,
+          "dnsEnd": 17.726,
+          "connectStart": 17.726,
+          "connectEnd": 103.708,
+          "sslStart": 38.357,
+          "sslEnd": 103.703,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 103.964,
+          "sendEnd": 104.061,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 129.042
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "P-256",
+          "cipher": "AES_256_GCM",
+          "certificateId": 0,
+          "subjectName": "www.example.org",
+          "sanList": [
+            "www.example.org",
+            "example.com",
+            "example.edu",
+            "example.net",
+            "example.org",
+            "www.example.com",
+            "www.example.edu",
+            "www.example.net"
+          ],
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "validFrom": 1543363200,
+          "validTo": 1606910400,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1543440012614,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100846481B7211DFA1A48F576AE4BE84686572717B07BE93BB74A57426CA284C46C022100BB93B5FE30C464E4164C7C6E585357EEEC7FAA454FBF0E468EFE70FDFD8E4242"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "timestamp": 1543440012821,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502206FAA77D21CA794C0632D2EB386DD418B408A1A2F7FAE66C1935F731F48935011022100D2F99D4886051EA09744250B3CEACEFA2B197C81FF277B9EDB58B6DCE8F04A4E"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Sectigo 'Mammoth' CT log",
+              "logId": "6F5376AC31F03119D89900A45115FF77151C11D902C10029068DB2089A37D913",
+              "timestamp": 1543440012956,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E479FB43848ECAA1E44FE903B07ABB92EEF3443B8CECFE140D7D9FB763299F2D02204D775ADC49014AF4680485619FD78D200C31FAC1D3F4710A5BD656CB3D2C728C"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "init",
+      "timestamp": 18161.429487
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "4089AE4A9B5266193F7283BEFA504C1C",
+        "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+        "url": "https://www.example.com/",
+        "securityOrigin": "https://www.example.com",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "timestamp": 18161.434886,
+      "dataLength": 1270,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "timestamp": 18161.428321,
+      "encodedDataLength": 804,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 18161.436468
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "load",
+      "timestamp": 18161.436468
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C"
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 18161.506041
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "DOMContentLoaded",
+      "timestamp": 18161.506041
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060305.2",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "documentURL": "https://www.example.com/",
+      "request": {
+        "url": "https://www.example.com/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.example.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18161.514447,
+      "wallTime": 1552587158.23326,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Other",
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "firstPaint",
+      "timestamp": 18161.51433
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "firstContentfulPaint",
+      "timestamp": 18161.514332
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 18161.514332
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060305.2",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "timestamp": 18161.527885,
+      "type": "Other",
+      "response": {
+        "url": "https://www.example.com/favicon.ico",
+        "status": 404,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:12:38 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Thu, 07 Mar 2019 14:41:34 GMT",
+          "server": "ECS (sjc/4E91)",
+          "vary": "Accept-Encoding",
+          "x-cache": "404-HIT",
+          "content-type": "text/html; charset=UTF-8",
+          "status": "404",
+          "cache-control": "max-age=604800",
+          "accept-ranges": "bytes",
+          "content-length": "606",
+          "expires": "Thu, 21 Mar 2019 18:12:38 GMT"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":path": "/favicon.ico",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://www.example.com/",
+          ":authority": "www.example.com",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 99,
+        "remoteIPAddress": "93.184.216.34",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 70,
+        "timing": {
+          "requestTime": 18161.514967,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.318,
+          "sendEnd": 0.428,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 12.403
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "P-256",
+          "cipher": "AES_256_GCM",
+          "certificateId": 0,
+          "subjectName": "www.example.org",
+          "sanList": [
+            "www.example.org",
+            "example.com",
+            "example.edu",
+            "example.net",
+            "example.org",
+            "www.example.com",
+            "www.example.edu",
+            "www.example.net"
+          ],
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "validFrom": 1543363200,
+          "validTo": 1606910400,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1543440012614,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100846481B7211DFA1A48F576AE4BE84686572717B07BE93BB74A57426CA284C46C022100BB93B5FE30C464E4164C7C6E585357EEEC7FAA454FBF0E468EFE70FDFD8E4242"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "timestamp": 1543440012821,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502206FAA77D21CA794C0632D2EB386DD418B408A1A2F7FAE66C1935F731F48935011022100D2F99D4886051EA09744250B3CEACEFA2B197C81FF277B9EDB58B6DCE8F04A4E"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Sectigo 'Mammoth' CT log",
+              "logId": "6F5376AC31F03119D89900A45115FF77151C11D902C10029068DB2089A37D913",
+              "timestamp": 1543440012956,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E479FB43848ECAA1E44FE903B07ABB92EEF3443B8CECFE140D7D9FB763299F2D02204D775ADC49014AF4680485619FD78D200C31FAC1D3F4710A5BD656CB3D2C728C"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060305.2",
+      "timestamp": 18161.528254,
+      "dataLength": 1270,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060305.2",
+      "timestamp": 18161.528466,
+      "dataLength": 0,
+      "encodedDataLength": 615
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060305.2",
+      "timestamp": 18161.527841,
+      "encodedDataLength": 685,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "networkAlmostIdle",
+      "timestamp": 18161.506056
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 18161.514332
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "4089AE4A9B5266193F7283BEFA504C1C",
+      "loaderId": "C5576DBC9A6D8EAEBE9DEE81899AC1D7",
+      "name": "networkIdle",
+      "timestamp": 18161.528481
+    }
+  }
+]

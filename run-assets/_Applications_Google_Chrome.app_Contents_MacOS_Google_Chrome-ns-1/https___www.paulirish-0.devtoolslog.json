@@ -1,0 +1,4977 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "1680C8D942E73F34E0912C3F19D148DA",
+      "name": "commit",
+      "timestamp": 18364.836044
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "1680C8D942E73F34E0912C3F19D148DA",
+      "name": "DOMContentLoaded",
+      "timestamp": 18364.838128
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "1680C8D942E73F34E0912C3F19D148DA",
+      "name": "load",
+      "timestamp": 18364.838473
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "1680C8D942E73F34E0912C3F19D148DA",
+      "name": "networkAlmostIdle",
+      "timestamp": 18364.839008
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "1680C8D942E73F34E0912C3F19D148DA",
+      "name": "networkIdle",
+      "timestamp": 18364.839008
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.413567,
+      "wallTime": 1552587362.130172,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.665241,
+      "type": "Document",
+      "response": {
+        "url": "https://www.paulirish.com/",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "content-type": "text/html",
+          "set-cookie": "__cfduid=d3d9b4419843620db5f7a43415e7e6dfb1552587362; expires=Fri, 13-Mar-20 18:16:02 GMT; path=/; domain=.paulirish.com; HttpOnly",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "vary": "Accept-Encoding",
+          "content-security-policy": "default-src 'self' ; script-src 'self' 'unsafe-inline' https://ssl.google-analytics.com https://api.github.com https://disqus.com https://go.disqus.com https://*.disquscdn.com https://www.google-analytics.com https://paulirish.disqus.com https://platform.twitter.com https://cdn.syndication.twimg.com https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://platform.twitter.com https://c.disquscdn.com; img-src * 'self' data: ; font-src 'self' data: https://fonts.gstatic.com; object-src http://vimeo.com http://static.slidesharecdn.com; frame-src 'self' https://platform.twitter.com https://accounts.google.com https://player.vimeo.com https://www.youtube.com https://apis.google.com https://disqus.com https://www.youtube.com https://paulirish.wufoo.com http://jsfiddle.net http://player.vimeo.com https://staticxx.facebook.com https://syndication.twitter.com; worker-src 'self' blob:; upgrade-insecure-requests; report-uri https://paulirish.report-uri.com/r/d/csp/enforce;",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "server": "cloudflare",
+          "cf-ray": "4b783c86795d9312-SJC",
+          "content-encoding": "br"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "www.paulirish.com",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9"
+        },
+        "connectionReused": false,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 1045,
+        "timing": {
+          "requestTime": 18365.414109,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.174,
+          "dnsEnd": 29.805,
+          "connectStart": 29.805,
+          "connectEnd": 118.18,
+          "sslStart": 49.682,
+          "sslEnd": 118.176,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 118.846,
+          "sendEnd": 118.914,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 249.157
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "init",
+      "timestamp": 18365.667952
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.669419,
+      "dataLength": 50160,
+      "encodedDataLength": 11625
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "7C9176935EB46AAEF3F8038FB98302D3",
+        "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+        "url": "https://www.paulirish.com/",
+        "securityOrigin": "https://www.paulirish.com",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.2",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/assets/wikipedia-flamechart.jpg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.67607,
+      "wallTime": 1552587362.39267,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 76
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.680127,
+      "dataLength": 25061,
+      "encodedDataLength": 9668
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.679139,
+      "encodedDataLength": 22338,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.4",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://paulirish.com/assets/webkit-box.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.681736,
+      "wallTime": 1552587362.39834,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 98
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.5",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://lh6.googleusercontent.com/--WfQB-Tr1sQ/TfHQSfY38FI/AAAAAAAAB8s/DSNAn8F71i8/s800/graphicscontext.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.682016,
+      "wallTime": 1552587362.39862,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 248
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.6",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://paulirish.com/assets/webkit-diagram.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.682296,
+      "wallTime": 1552587362.3989,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 252
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.7",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://paulirish.com/i/3fb890.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.682506,
+      "wallTime": 1552587362.39911,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 358
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.8",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://paulirish.com/avatar150.jpg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.682825,
+      "wallTime": 1552587362.39943,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 408
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.9",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold|PT+Sans:regular,italic,bold|Droid+Sans:400,700|Lato:700,900",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.68306,
+      "wallTime": 1552587362.39966,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Stylesheet",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.10",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/javascripts/modernizr-2.0.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.683333,
+      "wallTime": 1552587362.39994,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 444
+      },
+      "type": "Script",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.11",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/javascripts/ender.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.683571,
+      "wallTime": 1552587362.40017,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 445
+      },
+      "type": "Script",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.12",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/javascripts/octopress.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.68382,
+      "wallTime": 1552587362.40042,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 446
+      },
+      "type": "Script",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.19",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/images/noise.png?1418840251",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.696233,
+      "wallTime": 1552587362.41284,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.22",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC",
+        "method": "GET",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.697313,
+      "wallTime": 1552587362.41392,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestServedFromCache",
+    "params": {
+      "requestId": "1000061097.22"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.22",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.69734,
+      "type": "Image",
+      "response": {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "mimeType": "image/png",
+        "connectionReused": false,
+        "connectionId": 0,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 0,
+        "protocol": "data",
+        "securityState": "unknown"
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.22",
+      "timestamp": 18365.697349,
+      "dataLength": 99,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.22",
+      "timestamp": 18365.697355,
+      "encodedDataLength": 0,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000061097.19",
+      "newPriority": "High",
+      "timestamp": 18365.8702
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.2",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.875328,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/assets/wikipedia-flamechart.jpg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "\"12a0c-5664bd374dde6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/jpeg",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c8759f89312-SJC",
+          "content-length": "76300",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/jpeg",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 131,
+        "timing": {
+          "requestTime": 18365.676484,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.3,
+          "sendEnd": 0.442,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 21.245
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.2",
+      "timestamp": 18365.875418,
+      "dataLength": 65536,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.10",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.876352,
+      "type": "Script",
+      "response": {
+        "url": "https://www.paulirish.com/javascripts/modernizr-2.0.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "content-encoding": "br",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "W/\"26da-5664bd3750cc6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript",
+          "status": "200",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT",
+          "cache-control": "public, max-age=86400",
+          "cf-polished": "origSize=9946",
+          "cf-ray": "4b783c8769ff9312-SJC",
+          "cf-bgj": "minify"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 108,
+        "timing": {
+          "requestTime": 18365.683589,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.019,
+          "sendEnd": 1.222,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 30.589
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.10",
+      "timestamp": 18365.876424,
+      "dataLength": 9736,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.10",
+      "timestamp": 18365.87659,
+      "dataLength": 0,
+      "encodedDataLength": 4174
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.10",
+      "timestamp": 18365.714511,
+      "encodedDataLength": 4282,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.12",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.87694,
+      "type": "Script",
+      "response": {
+        "url": "https://www.paulirish.com/javascripts/octopress.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "content-encoding": "br",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "W/\"227d-5664bd3750cc6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript",
+          "status": "200",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT",
+          "cache-control": "public, max-age=86400",
+          "cf-polished": "origSize=8829",
+          "cf-ray": "4b783c876a019312-SJC",
+          "cf-bgj": "minify"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 71,
+        "timing": {
+          "requestTime": 18365.684111,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.57,
+          "sendEnd": 0.704,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 30.531
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.12",
+      "timestamp": 18365.877003,
+      "dataLength": 7820,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.12",
+      "timestamp": 18365.877122,
+      "dataLength": 0,
+      "encodedDataLength": 3154
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.12",
+      "timestamp": 18365.714878,
+      "encodedDataLength": 3225,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.11",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.877473,
+      "type": "Script",
+      "response": {
+        "url": "https://www.paulirish.com/javascripts/ender.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "content-encoding": "br",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "W/\"db9d-5664bd3750cc6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript",
+          "status": "200",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT",
+          "cache-control": "public, max-age=86400",
+          "cf-polished": "origSize=56221",
+          "cf-ray": "4b783c876a009312-SJC",
+          "cf-bgj": "minify"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 72,
+        "timing": {
+          "requestTime": 18365.683804,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.845,
+          "sendEnd": 1.009,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 32.581
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.11",
+      "timestamp": 18365.877533,
+      "dataLength": 56107,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.11",
+      "timestamp": 18365.87771,
+      "dataLength": 0,
+      "encodedDataLength": 16967
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.11",
+      "timestamp": 18365.718057,
+      "encodedDataLength": 17039,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.4",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/assets/webkit-box.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.878138,
+      "wallTime": 1552587362.59474,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 98
+      },
+      "redirectResponse": {
+        "url": "https://paulirish.com/assets/webkit-box.png",
+        "status": 301,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "server": "cloudflare",
+          "location": "https://www.paulirish.com/assets/webkit-box.png",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "status": "301",
+          "cache-control": "max-age=3600",
+          "cf-ray": "4b783c877a0b9312-SJC",
+          "expires": "Thu, 14 Mar 2019 19:16:02 GMT"
+        },
+        "mimeType": "",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 106,
+        "timing": {
+          "requestTime": 18365.682077,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 14.616,
+          "sendEnd": 15.059,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 36.128
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.6",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/assets/webkit-diagram.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.878667,
+      "wallTime": 1552587362.59527,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 252
+      },
+      "redirectResponse": {
+        "url": "https://paulirish.com/assets/webkit-diagram.png",
+        "status": 301,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "server": "cloudflare",
+          "location": "https://www.paulirish.com/assets/webkit-diagram.png",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "status": "301",
+          "cache-control": "max-age=3600",
+          "cf-ray": "4b783c877a0c9312-SJC",
+          "expires": "Thu, 14 Mar 2019 19:16:02 GMT"
+        },
+        "mimeType": "",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 73,
+        "timing": {
+          "requestTime": 18365.682625,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 14.115,
+          "sendEnd": 14.514,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 35.745
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.8",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/avatar150.jpg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.879203,
+      "wallTime": 1552587362.5958,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 408
+      },
+      "redirectResponse": {
+        "url": "https://paulirish.com/avatar150.jpg",
+        "status": 301,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "server": "cloudflare",
+          "location": "https://www.paulirish.com/avatar150.jpg",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "status": "301",
+          "cache-control": "max-age=3600",
+          "cf-ray": "4b783c877a109312-SJC",
+          "expires": "Thu, 14 Mar 2019 19:16:02 GMT"
+        },
+        "mimeType": "",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 65,
+        "timing": {
+          "requestTime": 18365.683142,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 13.719,
+          "sendEnd": 14,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 35.346
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.7",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/i/3fb890.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.879701,
+      "wallTime": 1552587362.5963,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 358
+      },
+      "redirectResponse": {
+        "url": "https://paulirish.com/i/3fb890.png",
+        "status": 301,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "server": "cloudflare",
+          "location": "https://www.paulirish.com/i/3fb890.png",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "status": "301",
+          "cache-control": "max-age=3600",
+          "cf-ray": "4b783c877a0f9312-SJC",
+          "expires": "Thu, 14 Mar 2019 19:16:02 GMT"
+        },
+        "mimeType": "",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 64,
+        "timing": {
+          "requestTime": 18365.682783,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 13.993,
+          "sendEnd": 14.357,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 35.82
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.19",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.880108,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/images/noise.png?1418840251",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "\"454e-5664bd3750cc6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "status": "200",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c878a129312-SJC",
+          "content-length": "17742"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 67,
+        "timing": {
+          "requestTime": 18365.696503,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.607,
+          "sendEnd": 0.672,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 69.084
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.19",
+      "timestamp": 18365.880191,
+      "dataLength": 17742,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.19",
+      "timestamp": 18365.880404,
+      "dataLength": 0,
+      "encodedDataLength": 17778
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.19",
+      "timestamp": 18365.777316,
+      "encodedDataLength": 17845,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.5",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.880918,
+      "type": "Image",
+      "response": {
+        "url": "https://lh6.googleusercontent.com/--WfQB-Tr1sQ/TfHQSfY38FI/AAAAAAAAB8s/DSNAn8F71i8/s800/graphicscontext.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 15:32:57 GMT",
+          "x-content-type-options": "nosniff",
+          "age": "9785",
+          "status": "200",
+          "content-disposition": "inline;filename=\"graphicscontext.png\"",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "content-length": "44114",
+          "x-xss-protection": "1; mode=block",
+          "server": "fife",
+          "etag": "\"v7cb\"",
+          "vary": "Origin",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "Content-Length",
+          "cache-control": "public, max-age=86400, no-transform",
+          "timing-allow-origin": "*",
+          "expires": "Sun, 10 Mar 2019 04:00:29 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": false,
+        "connectionId": 135,
+        "remoteIPAddress": "172.217.6.65",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 307,
+        "timing": {
+          "requestTime": 18365.682493,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.451,
+          "dnsEnd": 19.337,
+          "connectStart": 19.337,
+          "connectEnd": 76.07,
+          "sslStart": 38.495,
+          "sslEnd": 76.064,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 76.289,
+          "sendEnd": 76.358,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 98.22
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.googleusercontent.com",
+          "sanList": [
+            "*.googleusercontent.com",
+            "*.apps.googleusercontent.com",
+            "*.appspot.com.storage.googleapis.com",
+            "*.audiobook-additional-material-staging.googleusercontent.com",
+            "*.audiobook-additional-material.googleusercontent.com",
+            "*.blogspot.com",
+            "*.bp.blogspot.com",
+            "*.commondatastorage.googleapis.com",
+            "*.content-storage-download.googleapis.com",
+            "*.content-storage-upload.googleapis.com",
+            "*.content-storage.googleapis.com",
+            "*.dataproc-staging.googleusercontent.com",
+            "*.dataproc-test.googleusercontent.com",
+            "*.dataproc.googleusercontent.com",
+            "*.dev.amp4mail.googleusercontent.com",
+            "*.doubleclickusercontent.com",
+            "*.ggpht.com",
+            "*.googledrive.com",
+            "*.googlesyndication.com",
+            "*.googleweblight.com",
+            "*.playground-internal.amp4mail.googleusercontent.com",
+            "*.playground.amp4mail.googleusercontent.com",
+            "*.prod.amp4mail.googleusercontent.com",
+            "*.safenup.googleusercontent.com",
+            "*.sandbox.googleusercontent.com",
+            "*.storage-download.googleapis.com",
+            "*.storage-upload.googleapis.com",
+            "*.storage.googleapis.com",
+            "*.storage.select.googleapis.com",
+            "*.translate.goog",
+            "blogspot.com",
+            "bp.blogspot.com",
+            "commondatastorage.googleapis.com",
+            "doubleclickusercontent.com",
+            "ggpht.com",
+            "googledrive.com",
+            "googleusercontent.com",
+            "googleweblight.com",
+            "manifest.lh3-da.googleusercontent.com",
+            "manifest.lh3-db.googleusercontent.com",
+            "manifest.lh3-dc.googleusercontent.com",
+            "manifest.lh3-dd.googleusercontent.com",
+            "manifest.lh3-de.googleusercontent.com",
+            "manifest.lh3-df.googleusercontent.com",
+            "manifest.lh3-dg.googleusercontent.com",
+            "manifest.lh3-dz.googleusercontent.com",
+            "manifest.lh3.googleusercontent.com",
+            "manifest.lh3.photos.google.com",
+            "static.panoramio.com.storage.googleapis.com",
+            "storage.googleapis.com",
+            "storage.select.googleapis.com",
+            "translate.goog",
+            "unfiltered.news"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551432857,
+          "validTo": 1558689900,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1551434622117,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30450221008E9547912EA0245C3EE0C99B8262A5B8AF74AB0D3FD46124A9DC6845B38B1AF202203E8E13D0D7D3550112CCC055744679E2171A205CE6E65008D93947F1B08DD2EF"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Sectigo 'Sabre' CT log",
+              "logId": "5581D4C2169036014AEA0B9B573C53F0C0E43878702508172FA3AA1D0713D30C",
+              "timestamp": 1551434622178,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30450221009903C37F461ECCEB861F4E9F65B603CB7968B26941C3BA09CB2078D5E9129CA0022019A98D2446B553D890F3909561EFC09E41C05F84612CE52A9335101CC65DEEBE"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.5",
+      "timestamp": 18365.881002,
+      "dataLength": 44114,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.5",
+      "timestamp": 18365.881309,
+      "dataLength": 0,
+      "encodedDataLength": 44141
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.5",
+      "timestamp": 18365.801909,
+      "encodedDataLength": 44448,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.9",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.881911,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold|PT+Sans:regular,italic,bold|Droid+Sans:400,700|Lato:700,900",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-encoding": "br",
+          "last-modified": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "server": "ESF",
+          "access-control-allow-origin": "*",
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "x-frame-options": "SAMEORIGIN",
+          "content-type": "text/css; charset=utf-8",
+          "status": "200",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "timing-allow-origin": "*",
+          "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+          "x-xss-protection": "1; mode=block",
+          "expires": "Thu, 14 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 134,
+        "remoteIPAddress": "216.58.194.170",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 324,
+        "timing": {
+          "requestTime": 18365.68337,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.966,
+          "dnsEnd": 17.945,
+          "connectStart": 17.945,
+          "connectEnd": 77.723,
+          "sslStart": 35.616,
+          "sslEnd": 77.719,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 77.84,
+          "sendEnd": 77.905,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 114.213
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.googleapis.com",
+          "sanList": [
+            "*.googleapis.com",
+            "*.clients6.google.ae",
+            "*.clients6.google.at",
+            "*.clients6.google.be",
+            "*.clients6.google.ca",
+            "*.clients6.google.ch",
+            "*.clients6.google.cl",
+            "*.clients6.google.co.id",
+            "*.clients6.google.co.il",
+            "*.clients6.google.co.in",
+            "*.clients6.google.co.jp",
+            "*.clients6.google.co.kr",
+            "*.clients6.google.co.nz",
+            "*.clients6.google.co.uk",
+            "*.clients6.google.co.ve",
+            "*.clients6.google.co.za",
+            "*.clients6.google.com",
+            "*.clients6.google.com.ar",
+            "*.clients6.google.com.au",
+            "*.clients6.google.com.br",
+            "*.clients6.google.com.co",
+            "*.clients6.google.com.eg",
+            "*.clients6.google.com.kw",
+            "*.clients6.google.com.mx",
+            "*.clients6.google.com.om",
+            "*.clients6.google.com.pe",
+            "*.clients6.google.com.ph",
+            "*.clients6.google.com.qa",
+            "*.clients6.google.com.sa",
+            "*.clients6.google.com.sg",
+            "*.clients6.google.com.tr",
+            "*.clients6.google.com.tw",
+            "*.clients6.google.com.ua",
+            "*.clients6.google.com.vn",
+            "*.clients6.google.cz",
+            "*.clients6.google.de",
+            "*.clients6.google.dk",
+            "*.clients6.google.es",
+            "*.clients6.google.fi",
+            "*.clients6.google.fr",
+            "*.clients6.google.ie",
+            "*.clients6.google.is",
+            "*.clients6.google.it",
+            "*.clients6.google.jp",
+            "*.clients6.google.nl",
+            "*.clients6.google.no",
+            "*.clients6.google.pl",
+            "*.clients6.google.pt",
+            "*.clients6.google.ro",
+            "*.clients6.google.ru",
+            "*.clients6.google.se",
+            "*.cloudendpointsapis.com",
+            "cloudendpointsapis.com",
+            "googleapis.com"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551433091,
+          "validTo": 1558689900,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1551434714402,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E0E2DEE77FC616B32F9519AC27BEBC2558550AE5E19BA4ED46EE35DCDA054774022011AE38805F9E413F480163B58F4C00D07CE0068993DC1E764EE8EC2E393C6962"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Sectigo 'Sabre' CT log",
+              "logId": "5581D4C2169036014AEA0B9B573C53F0C0E43878702508172FA3AA1D0713D30C",
+              "timestamp": 1551434714468,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30450220755A09786442E0EB552688E775412A59A4E401AFCCFE3B9B95C0827B4970F63D022100D23140F13CE17FAF59A8300956992004E685B58A32249750E06AB68B3C0B75B7"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.9",
+      "timestamp": 18365.881988,
+      "dataLength": 11151,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.9",
+      "timestamp": 18365.882173,
+      "dataLength": 0,
+      "encodedDataLength": 904
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.9",
+      "timestamp": 18365.797892,
+      "encodedDataLength": 1228,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.30",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2",
+        "method": "GET",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Referer": "https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold|PT+Sans:regular,italic,bold|Droid+Sans:400,700|Lato:700,900",
+          "Origin": "https://www.paulirish.com"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.884224,
+      "wallTime": 1552587362.60082,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Font",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.27",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://fonts.gstatic.com/s/droidsans/v9/SlGVmQWMvZQIdix7AFxXkHNSbRYXags.woff2",
+        "method": "GET",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Referer": "https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold|PT+Sans:regular,italic,bold|Droid+Sans:400,700|Lato:700,900",
+          "Origin": "https://www.paulirish.com"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.885394,
+      "wallTime": 1552587362.60199,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Font",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.28",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://fonts.gstatic.com/s/droidsans/v9/SlGWmQWMvZQIdix7AFxXmMh3eDs1ZyHKpWg.woff2",
+        "method": "GET",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Referer": "https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold|PT+Sans:regular,italic,bold|Droid+Sans:400,700|Lato:700,900",
+          "Origin": "https://www.paulirish.com"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.88637,
+      "wallTime": 1552587362.60297,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 440
+      },
+      "type": "Font",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.2",
+      "timestamp": 18365.917063,
+      "dataLength": 10764,
+      "encodedDataLength": 76399
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.2",
+      "timestamp": 18365.713821,
+      "encodedDataLength": 76530,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "firstPaint",
+      "timestamp": 18365.890223
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "firstContentfulPaint",
+      "timestamp": 18365.890225
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "firstImagePaint",
+      "timestamp": 18365.890225
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 18365.890225
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.6",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.919524,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/assets/webkit-diagram.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "\"521e-5664bd374ce46\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c889aec9312-SJC",
+          "content-length": "21022",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 62,
+        "timing": {
+          "requestTime": 18365.878756,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.151,
+          "sendEnd": 0.225,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 25.985
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.6",
+      "timestamp": 18365.919597,
+      "dataLength": 21022,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.6",
+      "timestamp": 18365.919807,
+      "dataLength": 0,
+      "encodedDataLength": 21058
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.6",
+      "timestamp": 18365.905024,
+      "encodedDataLength": 21120,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.8",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.920188,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/avatar150.jpg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 21 Apr 2010 01:27:33 GMT",
+          "server": "cloudflare",
+          "etag": "\"1cf1-484b5192a6b40\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/jpeg",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c889aed9312-SJC",
+          "content-length": "7409",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/jpeg",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 84,
+        "timing": {
+          "requestTime": 18365.879322,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.185,
+          "sendEnd": 0.266,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 25.839
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.8",
+      "timestamp": 18365.920248,
+      "dataLength": 7409,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.8",
+      "timestamp": 18365.920397,
+      "dataLength": 0,
+      "encodedDataLength": 7427
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.8",
+      "timestamp": 18365.905357,
+      "encodedDataLength": 7511,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.7",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.92077,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/i/3fb890.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 28 Feb 2013 17:15:06 GMT",
+          "server": "cloudflare",
+          "etag": "\"4978-4d6cc0831da80\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c889aee9312-SJC",
+          "content-length": "18808",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 108,
+        "timing": {
+          "requestTime": 18365.87981,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.154,
+          "sendEnd": 0.216,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 26.89
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.7",
+      "timestamp": 18365.92083,
+      "dataLength": 18808,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.7",
+      "timestamp": 18365.920989,
+      "dataLength": 0,
+      "encodedDataLength": 18844
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.7",
+      "timestamp": 18365.906947,
+      "encodedDataLength": 18952,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.4",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.921351,
+      "type": "Image",
+      "response": {
+        "url": "https://www.paulirish.com/assets/webkit-box.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "\"975a-5664bd374ce46\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "cf-ray": "4b783c889aeb9312-SJC",
+          "content-length": "38746",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 97,
+        "timing": {
+          "requestTime": 18365.87827,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.191,
+          "sendEnd": 0.282,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 30.577
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.4",
+      "timestamp": 18365.921411,
+      "dataLength": 38746,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.4",
+      "timestamp": 18365.921601,
+      "dataLength": 0,
+      "encodedDataLength": 38800
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.4",
+      "timestamp": 18365.909257,
+      "encodedDataLength": 38897,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.60",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.931019,
+      "wallTime": 1552587362.64762,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "24",
+              "url": "https://www.paulirish.com/",
+              "lineNumber": 455,
+              "columnNumber": 64
+            },
+            {
+              "functionName": "",
+              "scriptId": "24",
+              "url": "https://www.paulirish.com/",
+              "lineNumber": 456,
+              "columnNumber": 4
+            }
+          ]
+        }
+      },
+      "type": "Script",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.61",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://paulirish.disqus.com/count.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18365.931541,
+      "wallTime": 1552587362.64814,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "25",
+              "url": "https://www.paulirish.com/",
+              "lineNumber": 472,
+              "columnNumber": 93
+            },
+            {
+              "functionName": "",
+              "scriptId": "25",
+              "url": "https://www.paulirish.com/",
+              "lineNumber": 473,
+              "columnNumber": 5
+            }
+          ]
+        }
+      },
+      "type": "Script",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 18365.940904
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "DOMContentLoaded",
+      "timestamp": 18365.940904
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.28",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18365.983127,
+      "type": "Font",
+      "response": {
+        "url": "https://fonts.gstatic.com/s/droidsans/v9/SlGWmQWMvZQIdix7AFxXmMh3eDs1ZyHKpWg.woff2",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Sat, 09 Mar 2019 01:00:46 GMT",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Tue, 19 Feb 2019 22:42:06 GMT",
+          "server": "sffe",
+          "age": "494116",
+          "content-type": "font/woff2",
+          "status": "200",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "cache-control": "public, max-age=31536000",
+          "accept-ranges": "bytes",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "content-length": "11396",
+          "x-xss-protection": "1; mode=block",
+          "expires": "Sun, 08 Mar 2020 01:00:46 GMT"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 169,
+        "remoteIPAddress": "172.217.6.67",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 254,
+        "timing": {
+          "requestTime": 18365.919038,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 48.315,
+          "sendEnd": 48.509,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 63.511
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google.com",
+          "sanList": [
+            "*.google.com",
+            "*.android.com",
+            "*.appengine.google.com",
+            "*.cloud.google.com",
+            "*.crowdsource.google.com",
+            "*.g.co",
+            "*.gcp.gvt2.com",
+            "*.ggpht.cn",
+            "*.google-analytics.com",
+            "*.google.ca",
+            "*.google.cl",
+            "*.google.co.in",
+            "*.google.co.jp",
+            "*.google.co.uk",
+            "*.google.com.ar",
+            "*.google.com.au",
+            "*.google.com.br",
+            "*.google.com.co",
+            "*.google.com.mx",
+            "*.google.com.tr",
+            "*.google.com.vn",
+            "*.google.de",
+            "*.google.es",
+            "*.google.fr",
+            "*.google.hu",
+            "*.google.it",
+            "*.google.nl",
+            "*.google.pl",
+            "*.google.pt",
+            "*.googleadapis.com",
+            "*.googleapis.cn",
+            "*.googlecnapps.cn",
+            "*.googlecommerce.com",
+            "*.googlevideo.com",
+            "*.gstatic.cn",
+            "*.gstatic.com",
+            "*.gstaticcnapps.cn",
+            "*.gvt1.com",
+            "*.gvt2.com",
+            "*.metric.gstatic.com",
+            "*.urchin.com",
+            "*.url.google.com",
+            "*.youtube-nocookie.com",
+            "*.youtube.com",
+            "*.youtubeeducation.com",
+            "*.youtubekids.com",
+            "*.yt.be",
+            "*.ytimg.com",
+            "android.clients.google.com",
+            "android.com",
+            "developer.android.google.cn",
+            "developers.android.google.cn",
+            "g.co",
+            "ggpht.cn",
+            "goo.gl",
+            "google-analytics.com",
+            "google.com",
+            "googlecnapps.cn",
+            "googlecommerce.com",
+            "source.android.google.cn",
+            "urchin.com",
+            "www.goo.gl",
+            "youtu.be",
+            "youtube.com",
+            "youtubeeducation.com",
+            "youtubekids.com",
+            "yt.be"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551433437,
+          "validTo": 1558689900,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1551434853988,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100A82141C101F45B74DB51A570C0692D92B54E512EB0CB9D74BFF0C5589DFBC22F022100D34BF80D3ACE2DF002F9D3B9B90E2B517637D16D7DE7E7E48421DE812D59683D"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434854021,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022036B4EEC0EA25B893083C47C0A7518A91D227DA60D487BA2FF61ADFE5CCA9126B02204B546EE1BAD5C0857CAA6DFBED1A30F968F53C56BD6F831FC3F0FCA4FBB2C559"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.28",
+      "timestamp": 18365.98476,
+      "dataLength": 11396,
+      "encodedDataLength": 11405
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.28",
+      "timestamp": 18365.984736,
+      "encodedDataLength": 11659,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.30",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.009843,
+      "type": "Font",
+      "response": {
+        "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Sat, 09 Mar 2019 03:46:46 GMT",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Wed, 11 Oct 2017 18:24:00 GMT",
+          "server": "sffe",
+          "age": "484156",
+          "content-type": "font/woff2",
+          "status": "200",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "cache-control": "public, max-age=31536000",
+          "accept-ranges": "bytes",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "content-length": "14076",
+          "x-xss-protection": "1; mode=block",
+          "expires": "Sun, 08 Mar 2020 03:46:46 GMT"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": false,
+        "connectionId": 169,
+        "remoteIPAddress": "172.217.6.67",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 108,
+        "timing": {
+          "requestTime": 18365.918457,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0,
+          "dnsEnd": 0,
+          "connectStart": 0,
+          "connectEnd": 48.736,
+          "sslStart": 6.477,
+          "sslEnd": 48.714,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 48.857,
+          "sendEnd": 49.088,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 66.464
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google.com",
+          "sanList": [
+            "*.google.com",
+            "*.android.com",
+            "*.appengine.google.com",
+            "*.cloud.google.com",
+            "*.crowdsource.google.com",
+            "*.g.co",
+            "*.gcp.gvt2.com",
+            "*.ggpht.cn",
+            "*.google-analytics.com",
+            "*.google.ca",
+            "*.google.cl",
+            "*.google.co.in",
+            "*.google.co.jp",
+            "*.google.co.uk",
+            "*.google.com.ar",
+            "*.google.com.au",
+            "*.google.com.br",
+            "*.google.com.co",
+            "*.google.com.mx",
+            "*.google.com.tr",
+            "*.google.com.vn",
+            "*.google.de",
+            "*.google.es",
+            "*.google.fr",
+            "*.google.hu",
+            "*.google.it",
+            "*.google.nl",
+            "*.google.pl",
+            "*.google.pt",
+            "*.googleadapis.com",
+            "*.googleapis.cn",
+            "*.googlecnapps.cn",
+            "*.googlecommerce.com",
+            "*.googlevideo.com",
+            "*.gstatic.cn",
+            "*.gstatic.com",
+            "*.gstaticcnapps.cn",
+            "*.gvt1.com",
+            "*.gvt2.com",
+            "*.metric.gstatic.com",
+            "*.urchin.com",
+            "*.url.google.com",
+            "*.youtube-nocookie.com",
+            "*.youtube.com",
+            "*.youtubeeducation.com",
+            "*.youtubekids.com",
+            "*.yt.be",
+            "*.ytimg.com",
+            "android.clients.google.com",
+            "android.com",
+            "developer.android.google.cn",
+            "developers.android.google.cn",
+            "g.co",
+            "ggpht.cn",
+            "goo.gl",
+            "google-analytics.com",
+            "google.com",
+            "googlecnapps.cn",
+            "googlecommerce.com",
+            "source.android.google.cn",
+            "urchin.com",
+            "www.goo.gl",
+            "youtu.be",
+            "youtube.com",
+            "youtubeeducation.com",
+            "youtubekids.com",
+            "yt.be"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551433437,
+          "validTo": 1558689900,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1551434853988,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100A82141C101F45B74DB51A570C0692D92B54E512EB0CB9D74BFF0C5589DFBC22F022100D34BF80D3ACE2DF002F9D3B9B90E2B517637D16D7DE7E7E48421DE812D59683D"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434854021,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022036B4EEC0EA25B893083C47C0A7518A91D227DA60D487BA2FF61ADFE5CCA9126B02204B546EE1BAD5C0857CAA6DFBED1A30F968F53C56BD6F831FC3F0FCA4FBB2C559"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.30",
+      "timestamp": 18366.009948,
+      "dataLength": 14076,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.30",
+      "timestamp": 18366.010071,
+      "dataLength": 0,
+      "encodedDataLength": 14085
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.30",
+      "timestamp": 18365.999253,
+      "encodedDataLength": 14193,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.27",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.011455,
+      "type": "Font",
+      "response": {
+        "url": "https://fonts.gstatic.com/s/droidsans/v9/SlGVmQWMvZQIdix7AFxXkHNSbRYXags.woff2",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Sat, 09 Mar 2019 00:24:39 GMT",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Tue, 19 Feb 2019 22:41:08 GMT",
+          "server": "sffe",
+          "age": "496283",
+          "content-type": "font/woff2",
+          "status": "200",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "cache-control": "public, max-age=31536000",
+          "accept-ranges": "bytes",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "content-length": "11236",
+          "x-xss-protection": "1; mode=block",
+          "expires": "Sun, 08 Mar 2020 00:24:39 GMT"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 169,
+        "remoteIPAddress": "172.217.6.67",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 108,
+        "timing": {
+          "requestTime": 18365.918685,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 48.698,
+          "sendEnd": 48.864,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 80.778
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google.com",
+          "sanList": [
+            "*.google.com",
+            "*.android.com",
+            "*.appengine.google.com",
+            "*.cloud.google.com",
+            "*.crowdsource.google.com",
+            "*.g.co",
+            "*.gcp.gvt2.com",
+            "*.ggpht.cn",
+            "*.google-analytics.com",
+            "*.google.ca",
+            "*.google.cl",
+            "*.google.co.in",
+            "*.google.co.jp",
+            "*.google.co.uk",
+            "*.google.com.ar",
+            "*.google.com.au",
+            "*.google.com.br",
+            "*.google.com.co",
+            "*.google.com.mx",
+            "*.google.com.tr",
+            "*.google.com.vn",
+            "*.google.de",
+            "*.google.es",
+            "*.google.fr",
+            "*.google.hu",
+            "*.google.it",
+            "*.google.nl",
+            "*.google.pl",
+            "*.google.pt",
+            "*.googleadapis.com",
+            "*.googleapis.cn",
+            "*.googlecnapps.cn",
+            "*.googlecommerce.com",
+            "*.googlevideo.com",
+            "*.gstatic.cn",
+            "*.gstatic.com",
+            "*.gstaticcnapps.cn",
+            "*.gvt1.com",
+            "*.gvt2.com",
+            "*.metric.gstatic.com",
+            "*.urchin.com",
+            "*.url.google.com",
+            "*.youtube-nocookie.com",
+            "*.youtube.com",
+            "*.youtubeeducation.com",
+            "*.youtubekids.com",
+            "*.yt.be",
+            "*.ytimg.com",
+            "android.clients.google.com",
+            "android.com",
+            "developer.android.google.cn",
+            "developers.android.google.cn",
+            "g.co",
+            "ggpht.cn",
+            "goo.gl",
+            "google-analytics.com",
+            "google.com",
+            "googlecnapps.cn",
+            "googlecommerce.com",
+            "source.android.google.cn",
+            "urchin.com",
+            "www.goo.gl",
+            "youtu.be",
+            "youtube.com",
+            "youtubeeducation.com",
+            "youtubekids.com",
+            "yt.be"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551433437,
+          "validTo": 1558689900,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1551434853988,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100A82141C101F45B74DB51A570C0692D92B54E512EB0CB9D74BFF0C5589DFBC22F022100D34BF80D3ACE2DF002F9D3B9B90E2B517637D16D7DE7E7E48421DE812D59683D"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434854021,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022036B4EEC0EA25B893083C47C0A7518A91D227DA60D487BA2FF61ADFE5CCA9126B02204B546EE1BAD5C0857CAA6DFBED1A30F968F53C56BD6F831FC3F0FCA4FBB2C559"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.27",
+      "timestamp": 18366.01153,
+      "dataLength": 11236,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.27",
+      "timestamp": 18366.011649,
+      "dataLength": 0,
+      "encodedDataLength": 11245
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.27",
+      "timestamp": 18366.004503,
+      "encodedDataLength": 11353,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.60",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.062232,
+      "type": "Script",
+      "response": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Wed, 16 Jan 2019 20:01:45 GMT",
+          "server": "Golfe2",
+          "age": "2070",
+          "date": "Thu, 14 Mar 2019 17:41:32 GMT",
+          "vary": "Accept-Encoding",
+          "content-type": "text/javascript",
+          "status": "200",
+          "cache-control": "public, max-age=7200",
+          "timing-allow-origin": "*",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "content-length": "17543",
+          "expires": "Thu, 14 Mar 2019 19:41:32 GMT"
+        },
+        "mimeType": "text/javascript",
+        "connectionReused": false,
+        "connectionId": 209,
+        "remoteIPAddress": "172.217.6.46",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 272,
+        "timing": {
+          "requestTime": 18365.931247,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.122,
+          "dnsEnd": 16.73,
+          "connectStart": 16.73,
+          "connectEnd": 75.59,
+          "sslStart": 31.529,
+          "sslEnd": 75.588,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 75.692,
+          "sendEnd": 75.756,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 98.611
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google-analytics.com",
+          "sanList": [
+            "*.google-analytics.com",
+            "app-measurement.com",
+            "google-analytics.com",
+            "googletagmanager.com",
+            "service.urchin.com",
+            "ssl.google-analytics.com",
+            "urchin.com",
+            "www.google-analytics.com",
+            "www.googletagmanager.com"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551432667,
+          "validTo": 1558689840,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1551434546007,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402203852170E107290F9077AA8DD34A98986483B6B72CB8B3C1F0A72504ECBA7E6B6022016D8FD575F33AE35DC2B7A8E6187BBFBD75060D7EB2F7CD48BDD724C4D342B07"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434546314,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220257EBAAE795048B398002C140E63908FAA2FFD7BBC7C82581F80185C81AA4B6702204A694E6ED742D10EE17E4ED1F9F88BE621E15F0D880125B4470DAC1637DA532A"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.60",
+      "timestamp": 18366.062318,
+      "dataLength": 44130,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.60",
+      "timestamp": 18366.031323,
+      "encodedDataLength": 17833,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.62",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.google-analytics.com/r/collect?v=1&_v=j73&a=530761524&t=pageview&_s=1&dl=https%3A%2F%2Fwww.paulirish.com%2F&ul=en-us&de=UTF-8&dt=Paul%20Irish&sd=24-bit&sr=412x660&vp=412x660&je=0&_u=IEBAAEAB~&jid=2059424362&gjid=378416872&cid=1610177010.1552587363&tid=UA-692547-2&_gid=1517488526.1552587363&_r=1&z=1576463481",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18366.080625,
+      "wallTime": 1552587362.79722,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.paulirish.com/",
+        "lineNumber": 0
+      },
+      "type": "Image",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.61",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.081714,
+      "type": "Script",
+      "response": {
+        "url": "https://paulirish.disqus.com/count.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "Content-Encoding": "gzip",
+          "X-Content-Type-Options": "nosniff",
+          "Age": "179285",
+          "P3P": "CP=\"DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM\"",
+          "Connection": "keep-alive",
+          "Content-Length": "871",
+          "X-XSS-Protection": "1; mode=block",
+          "Last-Modified": "Mon, 11 Mar 2019 17:49:30 GMT",
+          "Server": "nginx",
+          "ETag": "\"5c869faa-367\"",
+          "Vary": "Accept-Encoding",
+          "Strict-Transport-Security": "max-age=300; includeSubdomains",
+          "Content-Type": "application/javascript; charset=utf-8",
+          "Cache-Control": "public, max-age=300",
+          "Link": "<https://disqus.com>; rel=preconnect, <https://c.disquscdn.com>; rel=preconnect"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": false,
+        "connectionId": 210,
+        "remoteIPAddress": "151.101.196.134",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 605,
+        "timing": {
+          "requestTime": 18365.931775,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.1,
+          "dnsEnd": 16.388,
+          "connectStart": 16.388,
+          "connectEnd": 74.115,
+          "sslStart": 42.345,
+          "sslEnd": 74.111,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 74.158,
+          "sendEnd": 74.184,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 146.431
+        },
+        "protocol": "http/1.1",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.disqus.com",
+          "sanList": [
+            "*.disqus.com",
+            "disqus.com"
+          ],
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "validFrom": 1522195200,
+          "validTo": 1587988800,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1522256896526,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402205F355AC85FAE59EE1955C91A108A22B0AD5CFA5512A1A0E2D3C1957657D2B7000220708698C1573AB86DBBE530655546187CD47A94C63928C484991884DFFB2D3ADE"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Sectigo 'Mammoth' CT log",
+              "logId": "6F5376AC31F03119D89900A45115FF77151C11D902C10029068DB2089A37D913",
+              "timestamp": 1522256896777,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220564D83341197DBA076F06C9E72E0E035071648BAB22D909BC2797548CDCF11CB022060452BD056594A193425BB0DD09F4265289F79133D84491D57B6AF6A30AFFFDA"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1522256896625,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100B4720E1C825505B46AD7E82C3396BFFC24B3613D4A96301BB2AAF4085C96F87B022100E3BDC722D6FF2D2AA3E52E11616C311A1865BEAAF17F683169A0F25020023F1D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.61",
+      "timestamp": 18366.081799,
+      "dataLength": 1517,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.61",
+      "timestamp": 18366.078494,
+      "encodedDataLength": 1476,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.62",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.114408,
+      "type": "Image",
+      "response": {
+        "url": "https://www.google-analytics.com/r/collect?v=1&_v=j73&a=530761524&t=pageview&_s=1&dl=https%3A%2F%2Fwww.paulirish.com%2F&ul=en-us&de=UTF-8&dt=Paul%20Irish&sd=24-bit&sr=412x660&vp=412x660&je=0&_u=IEBAAEAB~&jid=2059424362&gjid=378416872&cid=1610177010.1552587363&tid=UA-692547-2&_gid=1517488526.1552587363&_r=1&z=1576463481",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "pragma": "no-cache",
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+          "server": "Golfe2",
+          "access-control-allow-origin": "*",
+          "content-type": "image/gif",
+          "status": "200",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "content-length": "35",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        "mimeType": "image/gif",
+        "connectionReused": true,
+        "connectionId": 209,
+        "remoteIPAddress": "172.217.6.46",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 146,
+        "timing": {
+          "requestTime": 18366.080895,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.241,
+          "sendEnd": 0.335,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 32.676
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google-analytics.com",
+          "sanList": [
+            "*.google-analytics.com",
+            "app-measurement.com",
+            "google-analytics.com",
+            "googletagmanager.com",
+            "service.urchin.com",
+            "ssl.google-analytics.com",
+            "urchin.com",
+            "www.google-analytics.com",
+            "www.googletagmanager.com"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551432667,
+          "validTo": 1558689840,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1551434546007,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402203852170E107290F9077AA8DD34A98986483B6B72CB8B3C1F0A72504ECBA7E6B6022016D8FD575F33AE35DC2B7A8E6187BBFBD75060D7EB2F7CD48BDD724C4D342B07"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434546314,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220257EBAAE795048B398002C140E63908FAA2FFD7BBC7C82581F80185C81AA4B6702204A694E6ED742D10EE17E4ED1F9F88BE621E15F0D880125B4470DAC1637DA532A"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.62",
+      "timestamp": 18366.114944,
+      "dataLength": 35,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.62",
+      "timestamp": 18366.114048,
+      "encodedDataLength": 199,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 18366.115967
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "load",
+      "timestamp": 18366.115967
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000061097.63",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "documentURL": "https://www.paulirish.com/",
+      "request": {
+        "url": "https://www.paulirish.com/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.paulirish.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18366.118617,
+      "wallTime": 1552587362.83522,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Other",
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000061097.63",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "timestamp": 18366.139818,
+      "type": "Other",
+      "response": {
+        "url": "https://www.paulirish.com/favicon.ico",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:16:02 GMT",
+          "content-encoding": "br",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 28 Feb 2018 20:45:39 GMT",
+          "server": "cloudflare",
+          "etag": "W/\"47e-5664bd372e9e7\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/x-icon",
+          "status": "200",
+          "cache-control": "public, max-age=86400",
+          "cf-ray": "4b783c8a1c1c9312-SJC",
+          "expires": "Fri, 15 Mar 2019 18:16:02 GMT"
+        },
+        "mimeType": "image/x-icon",
+        "connectionReused": true,
+        "connectionId": 43,
+        "remoteIPAddress": "104.28.23.33",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 67,
+        "timing": {
+          "requestTime": 18366.118977,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.339,
+          "sendEnd": 0.457,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 19.956
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni27858.cloudflaressl.com",
+          "sanList": [
+            "sni27858.cloudflaressl.com",
+            "*.aurgasm.us",
+            "*.bitcoin-souq.com",
+            "*.bobba.fr",
+            "*.bobba.pl",
+            "*.caltrainschedule.io",
+            "*.chedyscoma.gq",
+            "*.chrome-dev.tools",
+            "*.cjmpg.com.au",
+            "*.constituentsys.com",
+            "*.css3please.com",
+            "*.densgerbapor.ml",
+            "*.efoltriphran.tk",
+            "*.esence-zivota.eu",
+            "*.hardinglaity.com",
+            "*.kon-tools.ga",
+            "*.lisairish.com",
+            "*.loftatsea.nl",
+            "*.lorbkipmupa.ga",
+            "*.lotamilo.gq",
+            "*.michigan-accident-injury-lawyer-blog.com",
+            "*.mothereffinganimatedgif.com",
+            "*.noecromoutbu.ga",
+            "*.paul.irish",
+            "*.paulirish.com",
+            "*.pulciarareb.ga",
+            "*.relanceti.ml",
+            "*.silvestrinielena.altervista.org",
+            "*.sorencad.ml",
+            "*.stonualadam.tk",
+            "*.thusio.com",
+            "*.tigafighsa.ml",
+            "*.tools-hallucination-cyber.cf",
+            "*.urbansoot.net",
+            "*.vvsdating.ml",
+            "*.zzuuthreads.gq",
+            "aurgasm.us",
+            "bitcoin-souq.com",
+            "bobba.fr",
+            "bobba.pl",
+            "caltrainschedule.io",
+            "chedyscoma.gq",
+            "chrome-dev.tools",
+            "cjmpg.com.au",
+            "constituentsys.com",
+            "css3please.com",
+            "densgerbapor.ml",
+            "efoltriphran.tk",
+            "esence-zivota.eu",
+            "hardinglaity.com",
+            "kon-tools.ga",
+            "lisairish.com",
+            "loftatsea.nl",
+            "lorbkipmupa.ga",
+            "lotamilo.gq",
+            "michigan-accident-injury-lawyer-blog.com",
+            "mothereffinganimatedgif.com",
+            "noecromoutbu.ga",
+            "paul.irish",
+            "paulirish.com",
+            "pulciarareb.ga",
+            "relanceti.ml",
+            "silvestrinielena.altervista.org",
+            "sorencad.ml",
+            "stonualadam.tk",
+            "thusio.com",
+            "tigafighsa.ml",
+            "tools-hallucination-cyber.cf",
+            "urbansoot.net",
+            "vvsdating.ml",
+            "zzuuthreads.gq"
+          ],
+          "issuer": "COMODO ECC Domain Validation Secure Server CA 2",
+          "validFrom": 1552521600,
+          "validTo": 1569023999,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1552560175851,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220106376562FB8CECDFE152E0D0BB4D545B36C40CDFA792384681D4E0255178E3202201150C2E14F623D75073BDD51DF3C6ECC0156B2611692644491A3FF2E64AC55B4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1552560175929,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100BD0D7DCB6775A1BC500CE565EEA0848B0296EC16F0F7ED4E72D7EC9B219B4037022022E645F957216A82ABECFDC9FAA7CD537600306EAB568C76B32175A72DCFB90D"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.63",
+      "timestamp": 18366.139918,
+      "dataLength": 1150,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000061097.63",
+      "timestamp": 18366.140081,
+      "dataLength": 0,
+      "encodedDataLength": 943
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000061097.63",
+      "timestamp": 18366.139324,
+      "encodedDataLength": 1010,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "networkAlmostIdle",
+      "timestamp": 18366.012529
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 18365.890225
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "7C9176935EB46AAEF3F8038FB98302D3",
+      "loaderId": "074BCF3377D9922BA8964A5B9D02FCBA",
+      "name": "networkIdle",
+      "timestamp": 18366.140183
+    }
+  }
+]

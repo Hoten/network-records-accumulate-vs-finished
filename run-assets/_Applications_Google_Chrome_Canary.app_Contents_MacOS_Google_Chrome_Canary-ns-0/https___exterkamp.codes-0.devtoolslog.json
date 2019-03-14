@@ -1,0 +1,3708 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "commit",
+      "timestamp": 18170.127428
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "DOMContentLoaded",
+      "timestamp": 18170.127585
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "load",
+      "timestamp": 18170.12787
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "networkAlmostIdle",
+      "timestamp": 18170.128273
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "networkIdle",
+      "timestamp": 18170.128273
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18170.740825,
+      "wallTime": 1552587167.459534,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.247379,
+      "type": "Document",
+      "response": {
+        "url": "https://exterkamp.codes/",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "server": "GitHub.com",
+          "content-type": "text/html; charset=utf-8",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "etag": "W/\"5c887bf5-1472\"",
+          "access-control-allow-origin": "*",
+          "expires": "Thu, 14 Mar 2019 18:22:47 GMT",
+          "cache-control": "max-age=600",
+          "content-encoding": "gzip",
+          "x-github-request-id": "1A24:984B:39F920:3E6E96:5C8A999E",
+          "accept-ranges": "bytes",
+          "date": "Thu, 14 Mar 2019 18:12:47 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-served-by": "cache-pao17434-PAO",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1552587168.828898,VS0,VE155",
+          "vary": "Accept-Encoding",
+          "x-fastly-request-id": "89eb45a211c86dd72bd6f24b41964ae44a596baa",
+          "content-length": "1653"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9"
+        },
+        "connectionReused": false,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 353,
+        "timing": {
+          "requestTime": 18170.741247,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 100.429,
+          "dnsEnd": 100.436,
+          "connectStart": 100.436,
+          "connectEnd": 334.094,
+          "sslStart": 120.117,
+          "sslEnd": 334.087,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 335.274,
+          "sendEnd": 335.414,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 504.826
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "networkAlmostIdle",
+      "timestamp": 18170.128273
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "3ABEC591AC76A9FB6DCF61771B9AB5F2",
+      "name": "networkIdle",
+      "timestamp": 18170.128273
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "init",
+      "timestamp": 18171.25256
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "A67794B3951FC1C6517EEC48A791FAB3",
+        "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+        "url": "https://exterkamp.codes/",
+        "securityOrigin": "https://exterkamp.codes",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.258352,
+      "dataLength": 5234,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.25121,
+      "encodedDataLength": 2015,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.2",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-124170035-1",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.259451,
+      "wallTime": 1552587167.97815,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 4
+      },
+      "type": "Script",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/styles/index.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.259714,
+      "wallTime": 1552587167.97842,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 35
+      },
+      "type": "Stylesheet",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.4",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/img/headshot_dithered_transparent.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.259879,
+      "wallTime": 1552587167.97858,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 39
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.5",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/Google_2015_logo.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260035,
+      "wallTime": 1552587167.97874,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 47
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.6",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/baseline-alternate_email-24px.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.26012,
+      "wallTime": 1552587167.97882,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 51
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.7",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/baseline-picture_as_pdf-24px.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260188,
+      "wallTime": 1552587167.97889,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 52
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.8",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/github-icon-1.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260265,
+      "wallTime": 1552587167.97897,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 53
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.9",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/linkedin-icon-1.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.26035,
+      "wallTime": 1552587167.97905,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 54
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.10",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/facebook-icon-1.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260439,
+      "wallTime": 1552587167.97914,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 55
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.11",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/outline-remove-24px.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260571,
+      "wallTime": 1552587167.97927,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 61
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.12",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/baseline-refresh-24px.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260657,
+      "wallTime": 1552587167.97936,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 62
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.13",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/outline-add-24px.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260749,
+      "wallTime": 1552587167.97945,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 63
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.14",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/worker_handler.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.260846,
+      "wallTime": 1552587167.97955,
+      "initiator": {
+        "type": "parser",
+        "url": "https://exterkamp.codes/",
+        "lineNumber": 98
+      },
+      "type": "Script",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.2",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.423486,
+      "type": "Script",
+      "response": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-124170035-1",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "br",
+          "last-modified": "Thu, 14 Mar 2019 16:23:08 GMT",
+          "server": "Google Tag Manager (scaffolding)",
+          "access-control-allow-origin": "http://www.googletagmanager.com",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript; charset=UTF-8",
+          "status": "200",
+          "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+          "cache-control": "private, max-age=900",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-length": "23996",
+          "x-xss-protection": "1; mode=block",
+          "expires": "Thu, 14 Mar 2019 18:12:48 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": false,
+        "connectionId": 169,
+        "remoteIPAddress": "216.58.192.8",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 336,
+        "timing": {
+          "requestTime": 18171.260048,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.229,
+          "dnsEnd": 13.709,
+          "connectStart": 13.709,
+          "connectEnd": 74.153,
+          "sslStart": 28.697,
+          "sslEnd": 74.147,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 74.418,
+          "sendEnd": 74.551,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 155.774
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.google-analytics.com",
+          "sanList": [
+            "*.google-analytics.com",
+            "app-measurement.com",
+            "google-analytics.com",
+            "googletagmanager.com",
+            "service.urchin.com",
+            "ssl.google-analytics.com",
+            "urchin.com",
+            "www.google-analytics.com",
+            "www.googletagmanager.com"
+          ],
+          "issuer": "Google Internet Authority G3",
+          "validFrom": 1551432667,
+          "validTo": 1558689840,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1551434546007,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402203852170E107290F9077AA8DD34A98986483B6B72CB8B3C1F0A72504ECBA7E6B6022016D8FD575F33AE35DC2B7A8E6187BBFBD75060D7EB2F7CD48BDD724C4D342B07"
+            },
+            {
+              "status": "Verified",
+              "origin": "TLS extension",
+              "logDescription": "DigiCert Log Server",
+              "logId": "5614069A2FD7C2ECD3F5E1BD44B23EC74676B9BC99115CC0EF949855D689D0DD",
+              "timestamp": 1551434546314,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220257EBAAE795048B398002C140E63908FAA2FFD7BBC7C82581F80185C81AA4B6702204A694E6ED742D10EE17E4ED1F9F88BE621E15F0D880125B4470DAC1637DA532A"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.2",
+      "timestamp": 18171.423624,
+      "dataLength": 63196,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.2",
+      "timestamp": 18171.42433,
+      "dataLength": 0,
+      "encodedDataLength": 24023
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.2",
+      "timestamp": 18171.423692,
+      "encodedDataLength": 24359,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.14",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.43078,
+      "type": "Script",
+      "response": {
+        "url": "https://exterkamp.codes/worker_handler.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "3f6616422abcee638e41da0b2a39a156a3c0c488",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "1298",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "2F90:8CD3:544AD:5C0A9:5C8A999F",
+          "x-timer": "S1552587168.017011,VS0,VE150",
+          "etag": "W/\"5c887bf5-113f\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript; charset=utf-8",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "application/javascript",
+        "requestHeaders": {
+          ":path": "/worker_handler.js",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "*/*",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 203,
+        "timing": {
+          "requestTime": 18171.261928,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 2.261,
+          "sendEnd": 4.911,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 166.079
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.14",
+      "timestamp": 18171.430881,
+      "dataLength": 4415,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.14",
+      "timestamp": 18171.43105,
+      "dataLength": 0,
+      "encodedDataLength": 1307
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.14",
+      "timestamp": 18171.428452,
+      "encodedDataLength": 1510,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.431522,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://exterkamp.codes/styles/index.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "046480f1d79d8366ff73270e4377805dcdad70ab",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "1287",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "0A5C:6447:3C0EA7:409B71:5C8A999F",
+          "x-timer": "S1552587168.012392,VS0,VE155",
+          "etag": "W/\"5c887bf5-1057\"",
+          "vary": "Accept-Encoding",
+          "content-type": "text/css; charset=utf-8",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "text/css",
+        "requestHeaders": {
+          ":path": "/styles/index.css",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "text/css,*/*;q=0.1",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 150,
+        "timing": {
+          "requestTime": 18171.260681,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.615,
+          "sendEnd": 0.918,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 168.184
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.3",
+      "timestamp": 18171.4316,
+      "dataLength": 4183,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.3",
+      "timestamp": 18171.431946,
+      "dataLength": 0,
+      "encodedDataLength": 1296
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.3",
+      "timestamp": 18171.429264,
+      "encodedDataLength": 1446,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.7",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.43245,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/baseline-picture_as_pdf-24px.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "245a3e7a354f14200e07af18474b2546e0bd74b1",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "294",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "A53A:468C:2A4BC6:2D89C8:5C8A999F",
+          "x-timer": "S1552587168.022592,VS0,VE145",
+          "etag": "W/\"5c887bf5-1cc\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/baseline-picture_as_pdf-24px.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 142,
+        "timing": {
+          "requestTime": 18171.263244,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 3.041,
+          "sendEnd": 3.968,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 166.294
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.7",
+      "timestamp": 18171.432523,
+      "dataLength": 460,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.7",
+      "timestamp": 18171.434954,
+      "dataLength": 0,
+      "encodedDataLength": 303
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.7",
+      "timestamp": 18171.429892,
+      "encodedDataLength": 445,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.6",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.435465,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/baseline-alternate_email-24px.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "97527c0176a4d89ce88df528e5661f8614334404",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "323",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "1828:468A:EEEE3:101582:5C8A999F",
+          "x-timer": "S1552587168.022583,VS0,VE148",
+          "etag": "W/\"5c887bf5-1fc\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/baseline-alternate_email-24px.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 252,
+        "timing": {
+          "requestTime": 18171.262892,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 3.341,
+          "sendEnd": 4.31,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 167.664
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.6",
+      "timestamp": 18171.435555,
+      "dataLength": 508,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.6",
+      "timestamp": 18171.43681,
+      "dataLength": 0,
+      "encodedDataLength": 332
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.6",
+      "timestamp": 18171.430891,
+      "encodedDataLength": 584,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.11",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.437331,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/outline-remove-24px.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "089af42b241d47f5c4b5535da309c032a9df34fa",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "x-cache-hits": "0",
+          "content-length": "172",
+          "x-served-by": "cache-pao17434-PAO",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "2016:8CDB:3A50F9:3EC9BC:5C8A999F",
+          "x-timer": "S1552587168.022782,VS0,VE147",
+          "etag": "\"5c887bf5-ac\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/outline-remove-24px.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 128,
+        "timing": {
+          "requestTime": 18171.26536,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.727,
+          "sendEnd": 2.002,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 165.766
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.11",
+      "timestamp": 18171.437424,
+      "dataLength": 172,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.11",
+      "timestamp": 18171.438698,
+      "dataLength": 0,
+      "encodedDataLength": 181
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.11",
+      "timestamp": 18171.431418,
+      "encodedDataLength": 309,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.8",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.439575,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/github-icon-1.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "7b5c41c5c0f4b7d5205a61183387690b4ed8b1cc",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "1091",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "DBE8:468C:2A4BC6:2D89C7:5C8A999F",
+          "x-timer": "S1552587168.022607,VS0,VE148",
+          "etag": "W/\"5c887bf5-810\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/github-icon-1.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 178,
+        "timing": {
+          "requestTime": 18171.263582,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 2.761,
+          "sendEnd": 3.64,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 168.082
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.8",
+      "timestamp": 18171.439668,
+      "dataLength": 2064,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.8",
+      "timestamp": 18171.440918,
+      "dataLength": 0,
+      "encodedDataLength": 1100
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.8",
+      "timestamp": 18171.431988,
+      "encodedDataLength": 1278,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.4",
+      "newPriority": "High",
+      "timestamp": 18171.503361
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.10",
+      "newPriority": "High",
+      "timestamp": 18171.503398
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.5",
+      "newPriority": "High",
+      "timestamp": 18171.503427
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.9",
+      "newPriority": "High",
+      "timestamp": 18171.503453
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.13",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.505376,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/outline-add-24px.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "c678b63c62fe4e9d77ee6f4387df861202fb84e4",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "x-cache-hits": "0",
+          "content-length": "190",
+          "x-served-by": "cache-pao17434-PAO",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "A4DE:9848:2C69D2:2FD963:5C8A999F",
+          "x-timer": "S1552587168.022823,VS0,VE148",
+          "etag": "\"5c887bf5-be\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/outline-add-24px.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 128,
+        "timing": {
+          "requestTime": 18171.26582,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.349,
+          "sendEnd": 1.562,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 166.422
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.13",
+      "timestamp": 18171.505457,
+      "dataLength": 190,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.13",
+      "timestamp": 18171.506554,
+      "dataLength": 0,
+      "encodedDataLength": 199
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.13",
+      "timestamp": 18171.432527,
+      "encodedDataLength": 327,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.10",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.507175,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/facebook-icon-1.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "3eb9cc9d1158e893ca3ed98975ba0f67009837a4",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "333",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "A85A:984B:39F929:3E6E7D:5C8A999D",
+          "x-timer": "S1552587168.022798,VS0,VE150",
+          "etag": "W/\"5c887bf5-205\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/facebook-icon-1.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 143,
+        "timing": {
+          "requestTime": 18171.265108,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.932,
+          "sendEnd": 2.243,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 168.301
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.10",
+      "timestamp": 18171.507244,
+      "dataLength": 517,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.10",
+      "timestamp": 18171.508381,
+      "dataLength": 0,
+      "encodedDataLength": 342
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.10",
+      "timestamp": 18171.433758,
+      "encodedDataLength": 485,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.28",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/api_worker.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.509824,
+      "wallTime": 1552587168.22852,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "20",
+              "url": "https://exterkamp.codes/worker_handler.js",
+              "lineNumber": 2,
+              "columnNumber": 21
+            }
+          ]
+        }
+      },
+      "type": "Other",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 18171.510733
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "DOMContentLoaded",
+      "timestamp": 18171.510733
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.12",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.511169,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/baseline-refresh-24px.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "5bbb645003d78a4a16eabc61a5a9e748710a521d",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "264",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "4B28:03BF:3CAF64:41525F:5C8A999E",
+          "x-timer": "S1552587168.022766,VS0,VE155",
+          "etag": "W/\"5c887bf5-163\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/baseline-refresh-24px.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 252,
+        "timing": {
+          "requestTime": 18171.265589,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.54,
+          "sendEnd": 1.783,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 176.995
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.12",
+      "timestamp": 18171.511245,
+      "dataLength": 355,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.12",
+      "timestamp": 18171.51234,
+      "dataLength": 0,
+      "encodedDataLength": 273
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.12",
+      "timestamp": 18171.442984,
+      "encodedDataLength": 525,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.9",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.512724,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/linkedin-icon-1.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "ae5eb63106a989b8a5396bb08db5ba2e53d8936a",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "402",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "A3E8:8CD6:13958E:151861:5C8A999D",
+          "x-timer": "S1552587168.022828,VS0,VE187",
+          "etag": "W/\"5c887bf5-28e\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/linkedin-icon-1.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 130,
+        "timing": {
+          "requestTime": 18171.263969,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 2.43,
+          "sendEnd": 3.263,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 206.389
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.9",
+      "timestamp": 18171.5128,
+      "dataLength": 654,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.9",
+      "timestamp": 18171.513908,
+      "dataLength": 0,
+      "encodedDataLength": 411
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.9",
+      "timestamp": 18171.470701,
+      "encodedDataLength": 541,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.5",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.514312,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/Google_2015_logo.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "e7dbc7f1b606b952143862e6a46ae150e6c2d699",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "889",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "A87E:8CDB:3A50FA:3EC986:5C8A999E",
+          "x-timer": "S1552587168.022569,VS0,VE194",
+          "etag": "W/\"5c887bf5-772\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/Google_2015_logo.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 177,
+        "timing": {
+          "requestTime": 18171.262532,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 3.636,
+          "sendEnd": 4.659,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 214.249
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.5",
+      "timestamp": 18171.514383,
+      "dataLength": 1906,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.5",
+      "timestamp": 18171.515451,
+      "dataLength": 0,
+      "encodedDataLength": 898
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.5",
+      "timestamp": 18171.477125,
+      "encodedDataLength": 1075,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.4",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.515816,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/img/headshot_dithered_transparent.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "cc72c4cb9c1bc4827973e51add6e6c22ee0673dc",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "x-cache-hits": "0",
+          "content-length": "42334",
+          "x-served-by": "cache-pao17434-PAO",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "B2D4:937E:29B840:2CD5A1:5C8A999E",
+          "x-timer": "S1552587168.016982,VS0,VE215",
+          "etag": "\"5c887bf5-a55e\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT"
+        },
+        "mimeType": "image/png",
+        "requestHeaders": {
+          ":path": "/static/img/headshot_dithered_transparent.png",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 137,
+        "timing": {
+          "requestTime": 18171.260921,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.455,
+          "sendEnd": 0.69,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 232.549
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.4",
+      "timestamp": 18171.515888,
+      "dataLength": 42334,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.4",
+      "timestamp": 18171.51621,
+      "dataLength": 0,
+      "encodedDataLength": 42361
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.4",
+      "timestamp": 18171.508805,
+      "encodedDataLength": 42498,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "firstPaint",
+      "timestamp": 18171.513475
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "firstContentfulPaint",
+      "timestamp": 18171.513476
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "firstImagePaint",
+      "timestamp": 18171.513476
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 18171.513477
+    }
+  },
+  {
+    "method": "Target.attachedToTarget",
+    "params": {
+      "sessionId": "69D9BC35CB940E44E5EB0DD90B0814B0",
+      "targetInfo": {
+        "targetId": "3DE074630FFF64C94432FC1419247894",
+        "type": "service_worker",
+        "title": "Service Worker https://exterkamp.codes/sw.js",
+        "url": "https://exterkamp.codes/sw.js",
+        "attached": true,
+        "browserContextId": "2D0ABC310865653F352884AF2AA454E8"
+      },
+      "waitingForDebugger": false
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 18171.521993
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "load",
+      "timestamp": 18171.521993
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.29",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/manifest.json",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.52413,
+      "wallTime": 1552587168.24283,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Manifest",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.32",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.527247,
+      "wallTime": 1552587168.24595,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Other",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.28",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.681257,
+      "type": "Other",
+      "response": {
+        "url": "https://exterkamp.codes/api_worker.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "3a05ab0c785888de57ed9f78ac60ca9eff81f453",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "267",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "AD48:468C:2A4BD0:2D89DE:5C8A99A0",
+          "x-timer": "S1552587168.263283,VS0,VE155",
+          "etag": "W/\"5c887bf5-1f1\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript; charset=utf-8",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "application/javascript",
+        "requestHeaders": {
+          ":path": "/api_worker.js",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "*/*",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 158,
+        "timing": {
+          "requestTime": 18171.510237,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.338,
+          "sendEnd": 0.474,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 169.987
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Target.attachedToTarget",
+    "params": {
+      "sessionId": "20816C5D2D581C632FC028567BA08A1C",
+      "targetInfo": {
+        "targetId": "BD8A882CD176453DE002ABA185421285",
+        "type": "worker",
+        "title": "https://exterkamp.codes/api_worker.js",
+        "url": "https://exterkamp.codes/api_worker.js",
+        "attached": true,
+        "browserContextId": "2D0ABC310865653F352884AF2AA454E8"
+      },
+      "waitingForDebugger": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.28",
+      "timestamp": 18171.681847,
+      "dataLength": 497,
+      "encodedDataLength": 276
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.28",
+      "timestamp": 18171.681168,
+      "encodedDataLength": 434,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.32",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.69502,
+      "type": "Other",
+      "response": {
+        "url": "https://exterkamp.codes/favicon.ico",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "468e929b256e889a65005177db01b88919bc54f3",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "x-cache-hits": "0",
+          "content-length": "1150",
+          "x-served-by": "cache-pao17434-PAO",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "F710:8CD6:13958F:151863:5C8A999D",
+          "x-timer": "S1552587168.283133,VS0,VE150",
+          "etag": "\"5c887bf5-47e\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/vnd.microsoft.icon",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT"
+        },
+        "mimeType": "image/vnd.microsoft.icon",
+        "requestHeaders": {
+          ":path": "/favicon.ico",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 194,
+        "timing": {
+          "requestTime": 18171.527899,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.545,
+          "sendEnd": 0.619,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 166.475
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.32",
+      "timestamp": 18171.695132,
+      "dataLength": 1150,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.32",
+      "timestamp": 18171.695364,
+      "dataLength": 0,
+      "encodedDataLength": 1159
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.32",
+      "timestamp": 18171.694842,
+      "encodedDataLength": 1353,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.29",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18171.884677,
+      "type": "Manifest",
+      "response": {
+        "url": "https://exterkamp.codes/manifest.json",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "256d8867b71c0b51cfedad1b0375379201dc7152",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "355",
+          "x-served-by": "cache-pao17438-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "1A24:984B:39F93C:3E6F23:5C8A999F",
+          "x-timer": "S1552587168.469518,VS0,VE152",
+          "etag": "W/\"5c887bf5-26e\"",
+          "vary": "Accept-Encoding",
+          "content-type": "application/json; charset=utf-8",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "application/json",
+        "requestHeaders": {
+          ":path": "/manifest.json",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "*/*",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": false,
+        "connectionId": 183,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 354,
+        "timing": {
+          "requestTime": 18171.524592,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.215,
+          "dnsEnd": 0.219,
+          "connectStart": 0.219,
+          "connectEnd": 189.274,
+          "sslStart": 14.912,
+          "sslEnd": 189.269,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 189.531,
+          "sendEnd": 189.632,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 359.321
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.29",
+      "timestamp": 18171.884861,
+      "dataLength": 622,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.29",
+      "timestamp": 18171.885456,
+      "dataLength": 0,
+      "encodedDataLength": 364
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.29",
+      "timestamp": 18171.884513,
+      "encodedDataLength": 718,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.40",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/img/headshot_dithered.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18171.885972,
+      "wallTime": 1552587168.60467,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Other",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.45",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://exterkamp.codes/static/svg/Spotify_logo_without_text.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18172.021554,
+      "wallTime": 1552587168.74025,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "1000060345.46",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "documentURL": "https://exterkamp.codes/",
+      "request": {
+        "url": "https://i.scdn.co/image/eaf31952185d203be77e210c837e609da023207b",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://exterkamp.codes/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 18172.021827,
+      "wallTime": 1552587168.74052,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Image",
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.46",
+      "newPriority": "High",
+      "timestamp": 18172.025482
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "1000060345.45",
+      "newPriority": "High",
+      "timestamp": 18172.025529
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18172.123603,
+      "type": "Image",
+      "response": {
+        "url": "https://i.scdn.co/image/eaf31952185d203be77e210c837e609da023207b",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "Last-Modified": "Fri, 21 Sep 2018 21:23:57 GMT",
+          "Age": "1373920",
+          "ETag": "\"f16a546208bb63180a5f3d12249a937b\"",
+          "X-Cache": "HIT, HIT",
+          "Content-Type": "image/jpeg",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "max-age=315360000",
+          "X-Cache-Hits": "1, 1",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Timing-Allow-Origin": "*",
+          "Content-Length": "75584",
+          "X-Served-By": "cache-ord1742-ORD, cache-lax8633-LAX"
+        },
+        "mimeType": "image/jpeg",
+        "connectionReused": false,
+        "connectionId": 280,
+        "remoteIPAddress": "151.101.24.246",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 433,
+        "timing": {
+          "requestTime": 18172.022913,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.498,
+          "dnsEnd": 16.503,
+          "connectStart": 16.503,
+          "connectEnd": 73.157,
+          "sslStart": 39.624,
+          "sslEnd": 73.152,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 73.241,
+          "sendEnd": 73.268,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 99.257
+        },
+        "protocol": "http/1.1",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "*.scdn.co",
+          "sanList": [
+            "*.scdn.co",
+            "scdn.co"
+          ],
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "validFrom": 1529971200,
+          "validTo": 1597406400,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "timestamp": 1530042586234,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100FBC039A26BE6C98658A7E8C46F9B2E20A41DFA2180D38D6EB5BACE015263C7DB0220706407A42FEFD7CF069129F3D68DA8EC2BD3162C0BAD666E22A29F91A0DE49E4"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "timestamp": 1530042586441,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022006F57F2A46AB208F4A773DEAA5EB79697BE0C9475B753913BCD45F9B10ED6E0D022100C9381D753A5C277EF6B5905F66CA71947EE529B47EC023D9EDEC293EC26F48BF"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "timestamp": 1530042586300,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100F7766D4E42A1F4F8C3F8E319425272F60083C9A03B23BAE3E42070DB1FF6541902200A0F47CFCC2A76698231AF9A63DBDD5FDF684571DF325EC573A1DB26A7A9301F"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.123687,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.124005,
+      "dataLength": 2759,
+      "encodedDataLength": 2759
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.125245,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.126085,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.126543,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.130973,
+      "dataLength": 2589,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.132782,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.40",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18172.133243,
+      "type": "Other",
+      "response": {
+        "url": "https://exterkamp.codes/static/img/headshot_dithered.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "0f7b0ece025e85e4c2f7126593399c975843bb17",
+          "date": "Thu, 14 Mar 2019 18:12:48 GMT",
+          "via": "1.1 varnish",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "x-cache-hits": "0",
+          "content-length": "26110",
+          "x-served-by": "cache-pao17434-PAO",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "936C:8CD6:139596:151884:5C8A99A0",
+          "x-timer": "S1552587169.640687,VS0,VE145",
+          "etag": "\"5c887bf5-65fe\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT"
+        },
+        "mimeType": "image/png",
+        "requestHeaders": {
+          ":path": "/static/img/headshot_dithered.png",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 139,
+        "timing": {
+          "requestTime": 18171.886633,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.346,
+          "sendEnd": 0.508,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 246.206
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.133527,
+      "dataLength": 2759,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.40",
+      "timestamp": 18172.134044,
+      "dataLength": 26110,
+      "encodedDataLength": 26128
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.40",
+      "timestamp": 18172.133978,
+      "encodedDataLength": 26267,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.13667,
+      "dataLength": 27250,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.138696,
+      "dataLength": 16384,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.139888,
+      "dataLength": 10048,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.140444,
+      "dataLength": 0,
+      "encodedDataLength": 72825
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.46",
+      "timestamp": 18172.139935,
+      "encodedDataLength": 76017,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "1000060345.45",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "timestamp": 18172.281073,
+      "type": "Image",
+      "response": {
+        "url": "https://exterkamp.codes/static/svg/Spotify_logo_without_text.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "x-fastly-request-id": "133033d820b05de4d698c4ec0a8e5ac40dd91df0",
+          "date": "Thu, 14 Mar 2019 18:12:49 GMT",
+          "content-encoding": "gzip",
+          "age": "0",
+          "x-cache": "MISS",
+          "status": "200",
+          "content-length": "644",
+          "x-served-by": "cache-pao17434-PAO",
+          "access-control-allow-origin": "*",
+          "last-modified": "Wed, 13 Mar 2019 03:41:41 GMT",
+          "server": "GitHub.com",
+          "x-github-request-id": "1A24:984B:39F968:3E6F5D:5C8A99A0",
+          "x-timer": "S1552587169.867277,VS0,VE152",
+          "etag": "W/\"5c887bf5-45e\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "via": "1.1 varnish",
+          "expires": "Thu, 14 Mar 2019 18:22:48 GMT",
+          "cache-control": "max-age=600",
+          "accept-ranges": "bytes",
+          "x-cache-hits": "0"
+        },
+        "mimeType": "image/svg+xml",
+        "requestHeaders": {
+          ":path": "/static/svg/Spotify_logo_without_text.svg",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+          "referer": "https://exterkamp.codes/",
+          ":authority": "exterkamp.codes",
+          ":scheme": "https",
+          ":method": "GET"
+        },
+        "connectionReused": true,
+        "connectionId": 97,
+        "remoteIPAddress": "185.199.111.153",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "encodedDataLength": 273,
+        "timing": {
+          "requestTime": 18172.022214,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.007,
+          "sendEnd": 1.437,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 258.219
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "exterkamp.codes",
+          "sanList": [
+            "exterkamp.codes"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1551103988,
+          "validTo": 1558879988,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2019' Log",
+              "logId": "747EDA8331AD331091219CCE254F4270C2BFFD5E422008C6373579E6107BCC56",
+              "timestamp": 1551107588270,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502210097504832E24CAF658B6AA611561116426F467463E08626629914D5EC0C63A616022018D3AD17D94CD2782C925004673B928143A9AEFB5F9B6EA49C28E93EE362F899"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Icarus' log",
+              "logId": "293C519654C83965BAAA50FC5807D4B76FBF587A2972DCA4C30CF4E54547F478",
+              "timestamp": 1551107588284,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220231E3E43A5FEFFA50615A01F314111314A5F83BFBF7E2558B34327123E6A46E102207AE15EFA0064C3210495C9C8966CF59E85FE5E478DA0CFF40C96249CAB2D66A6"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.45",
+      "timestamp": 18172.281205,
+      "dataLength": 1118,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "1000060345.45",
+      "timestamp": 18172.283026,
+      "dataLength": 0,
+      "encodedDataLength": 653
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "1000060345.45",
+      "timestamp": 18172.280906,
+      "encodedDataLength": 926,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "networkAlmostIdle",
+      "timestamp": 18172.136571
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 18171.513477
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "A67794B3951FC1C6517EEC48A791FAB3",
+      "loaderId": "72F62F42CF6C91E6D3F8BCFD8E4AF6FD",
+      "name": "networkIdle",
+      "timestamp": 18172.283029
+    }
+  }
+]
